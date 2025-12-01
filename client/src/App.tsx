@@ -1,16 +1,24 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
+import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Beliefs from "@/pages/Beliefs";
+import Sermons from "@/pages/Sermons";
+import Visit from "@/pages/Visit";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
 
 
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/about"} component={About} />
+      <Route path={"/beliefs"} component={Beliefs} />
+      <Route path={"/sermons"} component={Sermons} />
+      <Route path={"/visit"} component={Visit} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
