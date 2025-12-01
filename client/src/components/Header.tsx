@@ -18,12 +18,10 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-[#E8E3DE] shadow-sm">
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-[#6F4E37] rounded flex items-center justify-center text-white font-serif font-bold text-lg">
-            F
-          </div>
-          <span className="hidden sm:block font-serif font-bold text-[#6F4E37] text-sm">
-            Fair Park<br className="hidden" />
+        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <img src="/images/logo-icon.png" alt="Fair Park Bible Fellowship" className="w-12 h-12" />
+          <span className="hidden sm:block font-serif font-bold text-[#6F4E37] text-sm leading-tight">
+            Fair Park<br />
             <span className="text-xs font-normal">Bible Fellowship</span>
           </span>
         </Link>
