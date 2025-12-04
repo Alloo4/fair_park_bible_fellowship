@@ -19,11 +19,7 @@ export default function Header() {
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <img src="/images/logo-icon.png" alt="Fair Park Bible Fellowship" className="w-12 h-12" />
-          <span className="hidden sm:block font-serif font-bold text-[#6F4E37] text-sm leading-tight">
-            Fair Park<br />
-            <span className="text-xs font-normal">Bible Fellowship</span>
-          </span>
+          <img src="/images/logo-updated.png" alt="Fair Park Bible Fellowship" className="h-16 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

@@ -8,8 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Tagline */}
           <div>
-            <img src="/images/logo-icon.png" alt="Fair Park Bible Fellowship" className="w-12 h-12 mb-3" />
-            <h3 className="font-serif font-bold text-white mb-2">Fair Park Bible Fellowship</h3>
+            <img src="/images/logo-updated.png" alt="Fair Park Bible Fellowship" className="w-32 h-auto mb-3" />
             <p className="text-sm italic text-[#C4BFBA]">A Light of Hope for All People</p>
           </div>
 
